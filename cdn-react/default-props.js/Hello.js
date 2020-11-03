@@ -7,7 +7,7 @@ class Hello extends React.Component {
         let bangs = "!".repeat(this.props.bangs)
         return(
             <div>
-                <p>Hi {this.props.to},, from {this.props.from}{bangs}</p>
+                <p>Hi {this.props.to}, from {this.props.from}{bangs}</p>
             </div>
         )
     }
