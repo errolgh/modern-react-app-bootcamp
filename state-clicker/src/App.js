@@ -4,7 +4,7 @@ import Clicker from './Clicker'
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <Clicker />
     </div>
   );
