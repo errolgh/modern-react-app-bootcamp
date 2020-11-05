@@ -18,10 +18,11 @@ export default class Clicker extends Component {
             <div>
                 <h1>Number is: {this.state.num}</h1>
                 {
-                this.state.num===7 ?
-                <h1>YOU WIN</h1> : 
-                <button onClick={ (e)=> {this.handleGenRandom()} }>Generate Random Number</button>
+                this.state.num === 7 
+                ? <h1>YOU WIN</h1>
+                : <button onClick={ (e)=> {this.handleGenRandom()} }>Generate Random Number</button>
                 }
+                {/* {this.state.num === 7 && <h1>YOU WIN</h1>} */}
             </div>
         )
     }
