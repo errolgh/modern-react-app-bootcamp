@@ -23,15 +23,3 @@ function App() {
 }
 
 export default App;
-
-
-// import React, { useState } from 'react'
-// function EmilyKnowsHooks(){
-//   const [count, setCount] = useState(0)
-//   return (
-//     <div>
-//       <h1>Thie Count is: {count}</h1>
-//       <button onClick={ () => setCount(setCount +1)}>Add</button>
-//     </div>
-//   )
-// }
